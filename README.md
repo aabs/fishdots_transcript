@@ -5,13 +5,12 @@ Transcript, to keep track of what you are working on, who you spoke to and so on
 ## IDEAS
 
 1. Provide commands for things like:
-
-- conversations, tracking who, what and when
-- decisions
-- thoughts
-- tasks completed
-- tasks started
-- tasks queued
+  - conversations, tracking who, what and when
+  - decisions
+  - thoughts
+  - tasks completed
+  - tasks started
+  - tasks queued
 
 2. Use fish shell events to hook into other plugins to either get or provide inputs.
 3. Hook into social media to broadcast or receive events that may be worth capturing
@@ -20,14 +19,15 @@ Transcript, to keep track of what you are working on, who you spoke to and so on
 
 ## Events
 
-- New meeting
-- New conversation
-- New Idea
-- New task
-- Task started
-- Task finished
-- Task halted
-- New Decision
-- New note created
-- New Problem
-- Problem Solved
+Possible Events could include:
+  - New meeting
+  - New conversation
+  - New Idea
+  - New task
+  - Task started
+  - Task finished
+  - Task halted
+  - New Decision
+  - New note created
+  - New Problem
+  - Problem Solved
