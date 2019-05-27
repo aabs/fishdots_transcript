@@ -1,6 +1,0 @@
-{
- 'event-type': 'new-task',
- 'title': 'TITLE',
- 'priority': 'PRIORITY',
- 'project': 'PROJECT'
-}
