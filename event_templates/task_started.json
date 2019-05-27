@@ -1,1 +1,1 @@
-{'event-type': 'event_started', 'task-id': 'TASKID', 'when': 'WHEN'}
+{'event-type': 'task_started', 'task-id': 'TASKID', 'when': 'WHEN'}
