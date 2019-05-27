@@ -19,7 +19,7 @@ Start with a set of useful functions that make it easy to declare an event type 
 - Hook into social media to broadcast or receive events that may be worth capturing
 
 - Decouple the system(s) that generate the events from those that act on them
-
+- Provide a way to allow plugins to register new events for publication. Q: How could this system use such registrations?
 - Have a variety of ways to handle events (i.e. log to notes, standup comms, social media, time trackers, ledgers, taskwarrior etc)
 
 ## Events
