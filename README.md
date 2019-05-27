@@ -13,7 +13,7 @@ Provide a set of commands for things like:
   - tasks started
   - tasks queued
 
-Use fish shell events to hook into other plugins to either get or provide inputs.
+Use fish shell events to hook into other plugins to either get or provide inputs.  Start with a set of useful functions that make it easy to declare an event type and the data it involves.  Q: Is there a way I could define some sort of schema? Perhaps by passing around structured data rather than sets of params - use an external parser to make sense of the data.
 
 Hook into social media to broadcast or receive events that may be worth capturing
 
