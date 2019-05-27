@@ -4,7 +4,7 @@ Transcript, to keep track of what you are working on, who you spoke to and so on
 
 ## IDEAS
 
-Provide a set of commands for things like:
+- Provide a set of commands for things like:
 
   - conversations, tracking who, what and when
   - decisions
@@ -13,13 +13,14 @@ Provide a set of commands for things like:
   - tasks started
   - tasks queued
 
-Use fish shell events to hook into other plugins to either get or provide inputs.  Start with a set of useful functions that make it easy to declare an event type and the data it involves.  Q: Is there a way I could define some sort of schema? Perhaps by passing around structured data rather than sets of params - use an external parser to make sense of the data.
+- Use fish shell events to hook into other plugins to either get or provide inputs.  
+Start with a set of useful functions that make it easy to declare an event type and the data it involves.  Q: Is there a way I could define some sort of schema? Perhaps by passing around structured data rather than sets of params - use an external parser to make sense of the data.
 
-Hook into social media to broadcast or receive events that may be worth capturing
+- Hook into social media to broadcast or receive events that may be worth capturing
 
-Decouple the system(s) that generate the events from those that act on them
+- Decouple the system(s) that generate the events from those that act on them
 
-Have a variety of ways to handle events (i.e. log to notes, standup comms, social media, time trackers, ledgers, taskwarrior etc)
+- Have a variety of ways to handle events (i.e. log to notes, standup comms, social media, time trackers, ledgers, taskwarrior etc)
 
 ## Events
 
