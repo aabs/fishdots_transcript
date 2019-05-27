@@ -4,7 +4,8 @@ Transcript, to keep track of what you are working on, who you spoke to and so on
 
 ## IDEAS
 
-1. Provide commands for things like:
+Provide a set of commands for things like:
+
   - conversations, tracking who, what and when
   - decisions
   - thoughts
@@ -12,10 +13,13 @@ Transcript, to keep track of what you are working on, who you spoke to and so on
   - tasks started
   - tasks queued
 
-2. Use fish shell events to hook into other plugins to either get or provide inputs.
-3. Hook into social media to broadcast or receive events that may be worth capturing
-4. Decouple the system(s) that generate the events from those that act on them
-5. Have a variety of ways to handle events (i.e. log to notes, standup comms, social media, time trackers, ledgers, taskwarrior etc)
+Use fish shell events to hook into other plugins to either get or provide inputs.
+
+Hook into social media to broadcast or receive events that may be worth capturing
+
+Decouple the system(s) that generate the events from those that act on them
+
+Have a variety of ways to handle events (i.e. log to notes, standup comms, social media, time trackers, ledgers, taskwarrior etc)
 
 ## Events
 
