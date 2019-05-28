@@ -59,6 +59,7 @@ function event_idea -a idea
   _set r when (date --iso-8601=minutes)
   _set r idea $idea
   emit on_event $r
+  emit new_idea $r
 end
 
 function event_new_note -a title
