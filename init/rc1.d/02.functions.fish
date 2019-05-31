@@ -13,11 +13,24 @@ end
 function fdt_ls_meeting -d 'pretty list of meeting'
   fdt_ls -t meeting | jq -r '. | [.when,.who,.topic]|join("\t ")' | sort -r
 end
+
+function find_meeting -a pattern
+  fdt_ls_meeting | grep $pattern
+end
   
 function fdt_ls_ideas -d 'pretty list of ideas'
   fdt_ls -t idea | jq -r '. | [.when,.idea]|join("\t")' | sort -r
 end
   
+function find_idea -a pattern
+  fdt_ls_ideas | grep $pattern
+end
+  
 function fdt_ls_decision -d 'pretty list of decision'
   fdt_ls -t decision | jq -r '. | [.when,.what]|join("\t")' | sort -r
 end
+
+function find_decision -a pattern
+  fdt_ls_decision | grep $pattern
+end
+  
