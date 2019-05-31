@@ -11,3 +11,6 @@ function _get -a varName key -d 'get property value from JSON formatted property
   echo $$varName | jq ".$key"
 end
 
+function get_all_transcripts
+  find $FDT_TRANSCRIPT_HOME -iname "transcript.log"
+end
