@@ -5,7 +5,7 @@ function fdt_ls -d 'list events'
   or return
   if set -q _flag_type
     for i in (get_all_transcripts)
-      command cat  $i | jq '.|select(.event_type == "'$_flag_type'")'
+      command cat  $i | jq '.|select(.event_type | contains("'$_flag_type'"))'
     end
   end
 end
